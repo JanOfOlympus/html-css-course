@@ -1,6 +1,10 @@
 <style>
     a {
         color: rgb(0, 113, 113);
+        transition: color 0.15s;
+    }
+    a:hover {
+        color: orange;
     }
     .title {
         font-size: large;
@@ -17,6 +21,14 @@
         border: none;
         height: 36px;
         width: 100px;
+        transition: background-color 0.15s, opacity 0.15s;
+        cursor: pointer;
+    }
+    .add-to-cart:hover {
+        background-color: rgb(190, 161, 14);
+    }
+    .add-to-cart:active {
+        opacity: 0.5;
     }
     .buy-now {
         background-color: rgb(255, 164, 28);
@@ -24,6 +36,14 @@
         height: 36px;
         width: 100px;
         border: none;
+        transition: background-color 0.15s, opacity 0.15s;
+        cursor: pointer;
+    }
+    .buy-now:hover {
+        background-color: rgb(194, 125, 20);
+    }
+    .buy-now:active {
+        opacity: 0.5;
     }
 </style>
 
