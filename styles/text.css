@@ -1,0 +1,43 @@
+p {
+    font-family: "Playfair Display";
+    margin-top: 0;
+}
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.video-stat {
+    font-size: 14px;
+    color: rgb(101, 101, 101);
+    margin-bottom: 20px;
+}
+.video-author {
+    font-size: 14px;
+    color: rgb(101, 101, 101);
+    margin-bottom: 20px;
+}
+.video-description {
+    font-size: 14px;
+    width: 300px;
+    color: rgb(101, 101, 101);
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+.apple-text {
+    font-size: 14px;
+    background-color: rgb(246, 69, 69);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+    color: white;
+    line-height: 22px;
+}
+.shop-link {
+    cursor: pointer;
+}
+.shop-link:hover {
+    text-decoration: underline;
+}
